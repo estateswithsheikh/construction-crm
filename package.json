@@ -1,0 +1,15 @@
+{
+  "name": "construction-crm",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Operations CRM for a construction company: leads, quotes, invoices, projects, payroll and job costing.",
+  "scripts": {
+    "build": "bash build.sh",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.4.0"
+  }
+}
